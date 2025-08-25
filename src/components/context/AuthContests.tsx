@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { ReactNode, useState } from "react";
+import { type ReactNode, useState } from "react";
 import { createContext, useContext } from "react";
 import { useUser } from "../../utils/hooks";
 export interface User {
